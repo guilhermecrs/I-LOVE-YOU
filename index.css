@@ -1,0 +1,61 @@
+.painel {
+    width: 600px;
+    height: 525px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 600px;
+    height: 525px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: -25px auto 0;
+
+}
+
+body {
+    background-image: url('img/plano.png');
+    background-size: cover;
+    /* Garante que a imagem cubra todo o fundo */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#sim {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(14, 64, 95);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-left: -80px;
+}
+
+#nao {
+    height: 40px;
+    width: 60px;
+    background-color: rgb(14, 64, 95);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    position: absolute;
+
+}
